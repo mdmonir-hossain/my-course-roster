@@ -1,13 +1,16 @@
-import './App.css'
+import "./App.css";
+import Header from "./Components/Header/Header";
+
 
 function App() {
-  
-
   return (
     <>
-      <h1>Hello</h1>
+      <div className="flex justify-center">
+        <Header></Header>
+      </div>
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
