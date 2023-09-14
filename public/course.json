@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/vVf11z9/python.png",
+    "title": "Python Programming",
+    "details": "Learn Python programming with this comprehensive guide.",
+    "price": 19.99,
+    "credit": 1
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/YWvmDkD/data.png",
+    "title": "Data Analysis",
+    "details": "Master data analysis techniques using Python and libraries like Pandas and NumPy.",
+    "price": 29.99,
+    "credit": 2
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/Y8XW7DP/aws.png",
+    "title": "Amazon Web Services (AWS)",
+    "details": "Explore the world of AWS cloud services and infrastructure.",
+    "price": 39.99,
+    "credit": 3
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/W2vF4Rp/software.png",
+    "title": "Software Development",
+    "details": "Become a skilled software developer with hands-on projects and best practices.",
+    "price": 49.99,
+    "credit": 1
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co/yYbyQCn/problem-solving.png",
+    "title": "Problem Solving",
+    "details": "Enhance your problem-solving skills with real-world challenges and solutions.",
+    "price": 59.99,
+    "credit": 2
+  },
+  {
+    "id": 6,
+    "cover": "https://i.ibb.co/64SVvSL/c-plus-plus.png",
+    "title": "C++ Programming",
+    "details": "Learn C++ programming language from scratch to advanced concepts.",
+    "price": 69.99,
+    "credit": 3
+  },
+  {
+    "id": 7,
+    "cover": "https://i.ibb.co/wBzLRsf/algorithms.png",
+    "title": "Algorithms and Data Structures",
+    "details": "Master algorithms and data structures for efficient problem-solving.",
+    "price": 79.99,
+    "credit": 1
+  },
+  {
+    "id": 8,
+    "cover": "https://i.ibb.co/5jQHr57/mysql.png",
+    "title": "MySQL Database Management",
+    "details": "Learn to manage MySQL databases for web applications and more.",
+    "price": 89.99,
+    "credit": 2
+  },
+  {
+    "id": 9,
+    "cover": "https://i.ibb.co/pv93pGW/c.png",
+    "title": "C Programming",
+    "details": "Master the fundamentals of C programming for system-level development.",
+    "price": 99.99,
+    "credit": 3
+  }
+]
