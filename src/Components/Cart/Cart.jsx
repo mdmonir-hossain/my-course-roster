@@ -2,8 +2,8 @@
 
 const Cart = () => {
     return (
-        <div>
-            
+        <div className="w-[20%]">
+             <h1>Cart</h1>
         </div>
     );
 };
