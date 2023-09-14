@@ -7,12 +7,20 @@ import { useEffect } from "react";
 
 function App() {
   const [carddata, setCarddata] = useState([]);
+  const [selectcourse, setSelectcourse] = useState([]);
   
   useEffect(() => {
     fetch('./course.json')
       .then(res => res.json())
     .then(data => setCarddata(data))
   }, [])
+const handleCart=(course)=>{
+  const isSelected = selectcourse.find((courselected) => courselected.id == course.id);
+  if (isSelected) {
+    return alert('aready Select');
+  }
+  setSelectcourse([...selectcourse,course])
+}
 
   return (
     <>
@@ -20,8 +28,8 @@ function App() {
         <Header></Header>
       </div>
       <div className="flex justify-between p-10">
-        <Card carddata={carddata}></Card>
-        <Cart></Cart>
+        <Card carddata={carddata} handleCart={handleCart}></Card>
+        <Cart selectcourse={selectcourse} ></Cart>
       </div>
     </>
   );

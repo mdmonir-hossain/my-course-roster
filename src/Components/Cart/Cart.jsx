@@ -1,4 +1,5 @@
-const Cart = () => {
+const Cart = ({ selectcourse }) => {
+  let count = 1;
   return (
     <div className=" ml-4">
       <div className="card w-96 bg-base-100 shadow-xl">
@@ -6,6 +7,13 @@ const Cart = () => {
           <h2 className="card-title text-[#2F80ED]">Credit Hour Remaining</h2>
           <hr />
           <h1 className="text-2xl font-bold">Course Name</h1>
+          {selectcourse.map((cartAdd) => (
+            <div key={cartAdd.id} >
+              <span>
+                {count++} {cartAdd.title}
+              </span>
+            </div>
+          ))}
           <hr />
           <h2 className="card-title text-gray-400">Total Credit Hour : </h2>
           <hr />
