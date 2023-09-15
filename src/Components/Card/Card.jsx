@@ -3,7 +3,7 @@ import { BsBook } from "react-icons/bs";
 
 const Card = ({ carddata,handleCart }) => {
   return (
-    <div className="w-[75%] grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-4">
+    <div className="lg: w-[75%] grid w-full grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4">
       {carddata.map((Courseinfo) => (
         <div key={Courseinfo.id} className="cart">
           <div className="card card-compact  bg-base-100 shadow-xl p-2 ">
