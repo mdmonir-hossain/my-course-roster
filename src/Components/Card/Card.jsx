@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { FiDollarSign } from "react-icons/fi";
 import { BsBook } from "react-icons/bs";
 

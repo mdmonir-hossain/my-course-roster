@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Cart = ({ selectcourse,totalcreditcourse,reaminingcreditcourse,totalprice}) => {
   let count = 1;
   
