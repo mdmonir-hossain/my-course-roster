@@ -34,7 +34,7 @@ function App() {
 
     // if Condition true
     if (isSelected) {
-      return toast("Already Selected");
+      return toast("You Already Have Selected This Course.");
     } else {
       selectcourse.forEach((total) => {
         totalcredit = totalcredit + total.credit;
@@ -47,7 +47,7 @@ function App() {
     }
 // total credit condition if greater than 20 hrs
     if (totalcredit > 20) {
-      return toast("Credit can not be greater than 20 hrs");
+      return toast("You crossed credit limit.");
     }
     // remaining credit calculation
     const reaminingcredit = 20 - totalcredit;
